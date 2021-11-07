@@ -1,1 +1,1 @@
-# UTS-Data-Warehouse
+# Desain data warehouse dibawah ini terdiri dari 3 tabel dimensi dan 1 tabel fakta. 3 Tabel dimensi terdiri dari tabel dim_orders yang merupakan gabungan dari tabel customers dan tabel orders, tabel dim_products merupakan gabungan dari tabel orderdetails dan tabel products, dan tabel dim_payments merupakan gabungan dari tabel payments dan tabel customers. Dan terakhir 1 tabel fakta (fact_penjualan) yang merupakan gabungan dari tabel dim_orders, dim_payments, dan dim_products.
